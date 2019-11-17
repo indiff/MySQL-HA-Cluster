@@ -22,7 +22,8 @@
 
 - name: install repository
   yum :
-    name: https://dev.mysql.com/get/mysql80-community-release-el7-3.noarch.rpm
+    #name: https://dev.mysql.com/get/mysql80-community-release-el7-3.noarch.rpm
+    name: http://dev.mysql.com/get/mysql57-community-release-el7-10.noarch.rpm
     state: present
 
 - name: copy global my.cnf
